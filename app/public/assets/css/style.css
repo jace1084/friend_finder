@@ -1,0 +1,131 @@
+img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    /* z-index: 15; */
+    top: 45%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+  
+  }
+  
+  h1 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 53%;
+    left: 52%;
+    margin: -100px 0 0 -150px;
+    font-family: 'Bungee', cursive;
+    font-size: 50px !important;
+    color: purple;
+    letter-spacing: 7px;
+    padding-top: 100px;
+  }
+  
+  h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px !important;
+    color: purple;
+    text-transform: uppercase;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 73%;
+    left: 52%;
+    margin: -100px 0 0 -150px;
+  }
+  
+  #header {
+    margin-top: -35px;
+  }
+  
+  #subhead {
+    margin-top: -20px;
+  }
+  
+  /* buttons */
+  .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    position: absolute;
+    /* z-index: 15; */
+    top: 85%;
+    left: 53%;
+    margin: -100px 0 0 -150px;
+    font-family: 'Bungee', cursive;
+    font-size: 10px !important;
+    letter-spacing: 5px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 3px solid yellow;
+    cursor: pointer;
+    box-sizing: border-box; 
+  }
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  .button:focus,
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus,
+  input[type="button"]:focus {
+    color: #777;
+    border-color: #777;
+    outline: 0; }
+  .button.button-primary,
+  button.button-primary,
+  input[type="submit"].button-primary,
+  input[type="reset"].button-primary,
+  input[type="button"].button-primary {
+    color: white;
+    background-color:purple;
+    border-color: yellow; }
+  .button.button-primary:hover,
+  button.button-primary:hover,
+  input[type="submit"].button-primary:hover,
+  input[type="reset"].button-primary:hover,
+  input[type="button"].button-primary:hover,
+  .button.button-primary:focus,
+  button.button-primary:focus,
+  input[type="submit"].button-primary:focus,
+  input[type="reset"].button-primary:focus,
+  input[type="button"].button-primary:focus {
+    color: #A7EBC7;
+    background-color: transparent;
+    border-color: #A7EBC7;
+     
+  }
+  
+  
+  /* border */
+  #top,
+  #bottom,
+  #left,
+  #right {
+    background:purple;
+    position: fixed;
+  }
+  
+  #left,
+  #right {
+    top: 0; bottom: 0;
+    width: 20px;
+  }
+    #left { left: 0; }
+    #right { right: 0; }
+  
+  #top,
+  #bottom {
+    left: 0; right: 0;
+    height: 20px;
+  }
+    #top { top: 0; }
+    #bottom { bottom: 0; }
